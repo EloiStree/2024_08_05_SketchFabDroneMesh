@@ -1,0 +1,378 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1491710388704651607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 373857644949989700}
+  m_Layer: 0
+  m_Name: LOD Dozer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &373857644949989700
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491710388704651607}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4563264413855354216}
+  - {fileID: 4160086133724450235}
+  - {fileID: 4447131652064230762}
+  - {fileID: 1949045369244107242}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1410144142532562533
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 373857644949989700}
+    m_Modifications:
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1851283772113977535, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3318490808630897395, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3631142815400690579, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3712491377027303891, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5953424829972777646, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7694368014539553190, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8189931118184041832, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_Name
+      value: Collider Dozer
+      objectReference: {fileID: 0}
+    - target: {fileID: 8905016432007360972, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 50dfb5d36a0144849a7df4dbe9379f8e, type: 3}
+--- !u!4 &1949045369244107242 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1410144142532562533}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3831105757747950309
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 373857644949989700}
+    m_Modifications:
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8189931118184041832, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_Name
+      value: Mini Cube Dozer
+      objectReference: {fileID: 0}
+    - target: {fileID: 8189931118184041832, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 50dfb5d36a0144849a7df4dbe9379f8e, type: 3}
+--- !u!4 &4447131652064230762 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 620846729120059279, guid: 50dfb5d36a0144849a7df4dbe9379f8e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3831105757747950309}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4956125854410783132
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 373857644949989700}
+    m_Modifications:
+    - target: {fileID: 596229327282550529, guid: e4fd11be70ec6c4428b372403c3f59b2,
+        type: 3}
+      propertyPath: m_Name
+      value: Mini Dozer
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904824801127773428, guid: e4fd11be70ec6c4428b372403c3f59b2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904824801127773428, guid: e4fd11be70ec6c4428b372403c3f59b2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904824801127773428, guid: e4fd11be70ec6c4428b372403c3f59b2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904824801127773428, guid: e4fd11be70ec6c4428b372403c3f59b2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904824801127773428, guid: e4fd11be70ec6c4428b372403c3f59b2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904824801127773428, guid: e4fd11be70ec6c4428b372403c3f59b2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904824801127773428, guid: e4fd11be70ec6c4428b372403c3f59b2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904824801127773428, guid: e4fd11be70ec6c4428b372403c3f59b2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904824801127773428, guid: e4fd11be70ec6c4428b372403c3f59b2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904824801127773428, guid: e4fd11be70ec6c4428b372403c3f59b2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4fd11be70ec6c4428b372403c3f59b2, type: 3}
+--- !u!4 &4563264413855354216 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8904824801127773428, guid: e4fd11be70ec6c4428b372403c3f59b2,
+    type: 3}
+  m_PrefabInstance: {fileID: 4956125854410783132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5754541247550492200
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 373857644949989700}
+    m_Modifications:
+    - target: {fileID: 8021823530737347632, guid: 8adc7eb36f1a5634884d934c4e801b8e,
+        type: 3}
+      propertyPath: m_Name
+      value: High Poly Dozer
+      objectReference: {fileID: 0}
+    - target: {fileID: 8021823530737347632, guid: 8adc7eb36f1a5634884d934c4e801b8e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531968934679151507, guid: 8adc7eb36f1a5634884d934c4e801b8e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531968934679151507, guid: 8adc7eb36f1a5634884d934c4e801b8e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531968934679151507, guid: 8adc7eb36f1a5634884d934c4e801b8e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531968934679151507, guid: 8adc7eb36f1a5634884d934c4e801b8e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531968934679151507, guid: 8adc7eb36f1a5634884d934c4e801b8e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531968934679151507, guid: 8adc7eb36f1a5634884d934c4e801b8e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531968934679151507, guid: 8adc7eb36f1a5634884d934c4e801b8e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531968934679151507, guid: 8adc7eb36f1a5634884d934c4e801b8e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531968934679151507, guid: 8adc7eb36f1a5634884d934c4e801b8e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531968934679151507, guid: 8adc7eb36f1a5634884d934c4e801b8e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8adc7eb36f1a5634884d934c4e801b8e, type: 3}
+--- !u!4 &4160086133724450235 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8531968934679151507, guid: 8adc7eb36f1a5634884d934c4e801b8e,
+    type: 3}
+  m_PrefabInstance: {fileID: 5754541247550492200}
+  m_PrefabAsset: {fileID: 0}
